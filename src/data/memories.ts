@@ -1,0 +1,58 @@
+import { MemoryItem } from '../types';
+
+export const INITIAL_MEMORIES: MemoryItem[] = [
+  {
+    id: '1',
+    title: 'Sunset at the Coast',
+    date: 'Summer Getaway',
+    caption: 'That unforgettable evening when the sky turned into pure spun gold and we could not stop laughing.',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+    tag: 'Adventures',
+    color: '#f43f5e',
+  },
+  {
+    id: '2',
+    title: 'The Unstoppable Smile',
+    date: 'Coffee & Late Night Talks',
+    caption: 'Your radiant energy always lights up every single room. Never lose that bright, contagious warmth!',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
+    tag: 'Joy & Laughter',
+    color: '#ec4899',
+  },
+  {
+    id: '3',
+    title: 'Stargazing in the Hills',
+    date: 'Weekend Roadtrip',
+    caption: 'Wrapped in oversized blankets, drinking hot chocolate, and talking about all our biggest dreams.',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80',
+    tag: 'Magic Moments',
+    color: '#8b5cf6',
+  },
+  {
+    id: '4',
+    title: 'Spontaneous Dance Off',
+    date: 'Festival Night',
+    caption: 'When the music played, nobody could match your moves or your genuine, carefree spirit!',
+    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+    tag: 'Celebration',
+    color: '#f59e0b',
+  },
+  {
+    id: '5',
+    title: 'The Great Cafe Quest',
+    date: 'Sunday Brunch',
+    caption: 'Found the fluffiest pastries in town and took fifty pictures before we took even a single bite.',
+    image: 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80',
+    tag: 'Foodie Vibes',
+    color: '#10b981',
+  },
+  {
+    id: '6',
+    title: 'Celebrating You Today',
+    date: 'Birthday Milestone',
+    caption: 'Here is to another incredible year of growth, adventures, quiet victories, and boundless happiness.',
+    image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80',
+    tag: 'Special Day',
+    color: '#06b6d4',
+  },
+];

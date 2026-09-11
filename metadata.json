@@ -1,0 +1,6 @@
+{
+  "name": "Kajal's 3D Birthday Celebration",
+  "description": "A dynamic 3D interactive birthday experience for Kajal featuring metallic 3D text, an interactive 360° candle-blowing cake, bokeh memory lane, and an unboxing gift reveal.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
